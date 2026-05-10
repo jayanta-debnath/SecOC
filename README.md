@@ -6,6 +6,7 @@ Mock implementation of Secure Onboard Communication
 - Programming: C++
 - Build tool: CMake
 - Architecture: Mermaid
+- Security modules: 
 
 # Architecture
 
