@@ -10,3 +10,4 @@ Review checklist:
 7. Possible usage of design patterns
 8. Common architectural pattersn followed
 9. Memory leaks
+10. thread safety and race conditions

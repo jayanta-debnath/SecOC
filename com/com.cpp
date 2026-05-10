@@ -2,7 +2,7 @@
 
 int Com::transmit(string id, string msg) {
   int fv = secoc.getTxFreshness();
-  string mac = secoc.macGenerate();
+  string mac = secoc.macGenerate(id, msg, fv);
 
   string pack = packMessage(id, msg, fv, mac);
   uds.send(pack);
