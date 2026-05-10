@@ -1,9 +1,9 @@
+#include <iostream>
+
 #include "com.h"
 
-using namespace std;
-
 int Com::transmit(string id, string msg) {
-    cout << "Hello Sender\n";
+    cout << id << " : " << msg << "\n";
 
     return 0;
 }
