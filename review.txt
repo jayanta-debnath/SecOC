@@ -1,0 +1,12 @@
+Requirements:
+
+Review checklist:
+1. Review fulfillment of Requirements
+2. C/C++ caveats
+3. Sanity checks for input parameters
+4. Error checks against return values
+5. Optimization possibilities
+6. Clean coding practices
+7. Possible usage of design patterns
+8. Common architectural pattersn followed
+9. Memory leaks

@@ -1,5 +1,5 @@
-class SecOC {
-    public:
-        int getTxFreshness();
-        int macGenerate();
-}
+#include "secoc.h"
+
+int SecOC::getTxFreshness() { return fv++; }
+
+string SecOC::macGenerate() { return 0; }
